@@ -36,8 +36,8 @@ def backtest_stats(account_value, value_col_name="account_value"):
     perf_stats_all = timeseries.perf_stats(
         returns=dr_test,
         positions=None,
-        transactions=None,
-        turnover_denom="AGB",
+        transactions=None
+        #turnover_denom="AGB"
     )
     print(perf_stats_all)
     return perf_stats_all

@@ -19,14 +19,18 @@ TRADE_END_DATE = "2021-12-01"
 # stockstats technical indicator column names
 # check https://pypi.org/project/stockstats/ for different names
 INDICATORS = [
-    "macd",
-    "boll_ub",
+    "macd","macds","macdh",
+    "boll_ub","boll",
     "boll_lb",
-    "rsi_30",
+    "rsi_13","rsi_21","rsi_34","rsi_55","rsi_89",
     "cci_30",
-    "dx_30",
-    "close_30_sma",
-    "close_60_sma",
+    "dx_30"
+    # "close_20_sma","close_50_sma","close_200_sma",
+    # "ppo","ppos","ppoh","atr","pdi","mdi","dx","adx","adxr",
+    # "stochrsi",
+    # "wt1","wt2",
+    # "supertrend","supertrend_ub","supertrend_lb"
+    
 ]
 
 

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-SINGLE_TICKER = ["AAPL"]
+SINGLE_TICKER = ["EURUSD=X"]
 
 # Dow 30 constituents in 2021/10
 # check https://wrds-www.wharton.upenn.edu/ for U.S. index constituents
@@ -1429,4 +1429,44 @@ FX_TICKER = [
     "XAUUSD=X",
     "ZARJPY=X",
     "EURDKK=X",
+]
+
+# ARK Investment Ticker
+ARK_TICKER = [
+    "TSLA",
+    "ZM",
+    "ROKU",
+    "EXAS",
+    "NTLA",
+    "SQ",
+    "TDOC",
+    "CRSP",
+    "COIN",
+    "PATH",
+    "BEAM",
+    "TWLO",
+    "U",
+    "SHOP",
+    "DKNG",
+    "UW",
+    "RBLX",
+    "DNA",
+    "HOOD",
+    "PD",
+    "FATE",
+    "TWST",
+    "TXG",
+    "NVDA",
+    "VCYT",
+    "PACB",
+    "SGFY",
+    "TSP",
+    "SPOT",
+    "NVTA",
+    "MTLS",
+    "TWOU",
+    "CERS",
+    "BLI",
+    "GEN"
+    
 ]
